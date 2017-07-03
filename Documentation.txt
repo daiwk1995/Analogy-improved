@@ -1,5 +1,5 @@
 Analogy Generation Engine
-Author: Craig Carlson
+Author: Craig Carlson/WEIKE DAI
 
 ==== Purpose ====
 This is a data exploration tool designed to automatically generate analogies between different domains.
@@ -93,6 +93,8 @@ The analogy-making process can be broken down into three main steps:
 	The last step of the analogy-making process is to construct a one-to-one mapping based on the triples.
 	The highest scoring triples are taken as fact, and any subsequent triples are either ignored (if they conflict with a previous mapping) or added to the list of facts.
 
+4) one-to-many mapping
+       This step is a new analogy mapping process because after lost of experiments, we find sometimes one domain different relationship can match one relationship in another domain.
 == Analogy API ==
 
 There are two main functions for making analogies.
