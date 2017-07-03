@@ -141,7 +141,8 @@ def make_analogy(src_concept, src_domain, target_concept, target_domain,
                 hypotheses.append((actual_score, r1, d1, r2, d2, v1, v2))
 
         hypotheses.sort(reverse=True)
-        count=0
+        #print the data to analyze
+        '''count=0
         total=0
         maxscore=0.0
         b=""
@@ -163,7 +164,7 @@ def make_analogy(src_concept, src_domain, target_concept, target_domain,
                                 maxscore=score
                                 b=a
                                 count=1
-            f.write(str(total))
+            f.write(str(total))'''
         return hypotheses
 
     rassert = {}
