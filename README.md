@@ -1,2 +1,2 @@
 # Analogy-improved
-We make some change in the analogy program.
+Craig make the analogy application first, then I improved it in some place
